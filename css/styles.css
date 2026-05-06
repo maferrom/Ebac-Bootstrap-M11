@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* Header styles - now using Bootstrap navbar, so minimal custom styles */
+.header__logo {
+    width: 250px;
+}
+
+.header__icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.header__icon--secondary {
+    opacity: .6;
+}
+
+/* Products - now using Bootstrap cards, adjust grid if needed */
+.products__img {
+    width: 100%;
+    height: auto;
+}
+
+.products__title {
+    font-size: .9rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products__price {
+    font-size: .9rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.products__btn {
+    display: block;
+    border: none;
+    background-color: rgb(243, 39, 229);
+    color: #FFF;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.products__btn:hover {
+    background-color: rgb(200, 30, 190);
+}
+
+.products__btn--disabled {
+    background-color: #6c757d;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+/* Footer - adjusted for Bootstrap layout */
+.footer {
+    font-size: smaller;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+.footer__img {
+    width: 50px;
+    height: auto;
+}
+
+.footer__ig {
+    width: 30px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.footer__ig:hover {
+    opacity: 0.7;
+}
